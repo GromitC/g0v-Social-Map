@@ -6,7 +6,7 @@ g0v Social Map is a MEAN Stack application. Just download and install and you ha
 1. cd to the directory
 2. Import the data to mongodb by running “sudo ./import_data.sh”
 3. Install npm modules: `npm install`
-4. Start up the server: `nom start`
+4. Start up the server: `npm start`
 5. View in browser at http://localhost:8080
 
 Use this starter kit to build any g0v application you like.
