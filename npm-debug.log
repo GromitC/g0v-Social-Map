@@ -1,0 +1,45 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'start' ]
+2 info using npm@3.9.5
+3 info using node@v6.2.2
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle starter-node-angular@~prestart: starter-node-angular@
+6 silly lifecycle starter-node-angular@~prestart: no script for prestart, continuing
+7 info lifecycle starter-node-angular@~start: starter-node-angular@
+8 verbose lifecycle starter-node-angular@~start: unsafe-perm in lifecycle true
+9 verbose lifecycle starter-node-angular@~start: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/gromit/g0v/node_modules/.bin:/usr/local/bin:/opt/local/bin:/opt/local/sbin:/sw/bin:/sw/sbin:/opt/local/bin:/opt/local/sbin:/Users/gromit/perl5/perlbrew/bin:/Users/gromit/perl5/perlbrew/perls/perl-5.16.0/bin:/Users/gromit/anaconda/bin:/Users/gromit/anaconda/bin:$/Library/Frameworks/Python.framework/Versions/3.4/bin:$/Users/gromit/vowpal_wabbit/vowpalwabbit:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/TeX/texbin:/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/bin:/Users/gromit/adt-bundle-mac-x86_64-20131030/apache-ant-1.9.3/bin:/Users/gromit/adt-bundle-mac-x86_64-20131030/sdk/tools:/Users/gromit/adt-bundle-mac-x86_64-20131030/sdk/platform-tools/
+10 verbose lifecycle starter-node-angular@~start: CWD: /Users/gromit/g0v
+11 silly lifecycle starter-node-angular@~start: Args: [ '-c', 'node server.js' ]
+12 silly lifecycle starter-node-angular@~start: Returned: code: 1  signal: null
+13 info lifecycle starter-node-angular@~start: Failed to exec start script
+14 verbose stack Error: starter-node-angular@ start: `node server.js`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:245:16)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at EventEmitter.emit (events.js:191:7)
+14 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at ChildProcess.emit (events.js:191:7)
+14 verbose stack     at maybeClose (internal/child_process.js:852:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:215:5)
+15 verbose pkgid starter-node-angular@
+16 verbose cwd /Users/gromit/g0v
+17 error Darwin 16.1.0
+18 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "start"
+19 error node v6.2.2
+20 error npm  v3.9.5
+21 error code ELIFECYCLE
+22 error starter-node-angular@ start: `node server.js`
+22 error Exit status 1
+23 error Failed at the starter-node-angular@ start script 'node server.js'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the starter-node-angular package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     node server.js
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs starter-node-angular
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls starter-node-angular
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]

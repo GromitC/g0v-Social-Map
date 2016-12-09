@@ -1,0 +1,12 @@
+{
+  "name": "starter-node-angular",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "~1.4.2",
+    "express": "~4.5.1",
+    "method-override": "~2.0.2",
+    "mongoose": "~4.4",
+    "slideout": "^0.1.12",
+    "underscore": "^1.8.3"
+  }
+}

@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+	<meta charset="UTF-8">
+	<base href="/">
+
+	<title>Social Map</title>
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css"> 
+	<link rel="stylesheet" href="libs/leaflet/leaflet.css">
+	<link rel="stylesheet" href="libs/leaflet/leaflet-areaselect.css"><!-- custom styles -->
+	<link rel="stylesheet" href="libs/vis/vis-timeline-graph2d.min.css" type="text/css">
+	<link rel="stylesheet" href="libs/rrose/leaflet.rrose.css" type="text/css">
+
+	<!-- JS -->
+	<script src="libs/angular/angular.min.js"></script>
+	<script src="libs/angular-route/angular-route.min.js"></script>
+	<script src="libs/jquery/jquery.min.js"></script>
+	<!-- <script src="libs/leaflet/leaflet.js"></script> -->
+	<script src="libs/d3/d3.v3.min.js"></script>
+	<script src="libs/nvd/nv.d3.min.js"></script>
+	<script src="libs/util/lasso.js"></script>
+	<script src="libs/leaflet/leaflet.js"></script>
+	<script src="libs/leaflet/leaflet-areaselect.js"></script>
+	<script src="libs/leaflet/leaflet-heat.js"></script>
+	<script src="libs/leaflet/lasso.js"></script>
+	<script src="libs/vis/vis.js"></script>
+	<script src="libs/rrose/leaflet.rrose-src.js"></script>
+	<script src="libs/slideout/slideout.js"></script>
+
+
+	<!-- always load the CSS -->
+
+
+
+	<script src="js/work/word.js"></script>
+	<script src="js/work/barChart.js"></script>
+	<script src="js/work/map.js"></script>
+	<script src="js/work/starthome.js"></script>
+
+
+
+
+
+	<!-- ANGULAR CUSTOM -->
+	<script src="js/controllers/MainCtrl.js"></script>
+	<script src="js/controllers/Tab1Ctrl.js"></script>
+	<script src="js/services/Tab1Service.js"></script>
+	<script src="js/controllers/Tab2Ctrl.js"></script>
+	<script src="js/services/Tab2Service.js"></script>
+	<script src="js/appRoutes.js"></script>
+	<script src="js/app.js"></script>
+
+</head>
+<body ng-app="sampleApp" >
+<div>
+<!-- 		<nav id="menu">
+	  <header>
+	    <h2>Menu</h2>
+	  </header>
+	</nav>
+
+	<main id="panel">
+	  <header>
+	    <h2>Panel</h2>
+	  </header>
+	</main> -->
+	<!-- HEADER -->
+	<nav class="navbar navbar-default ">
+		<div class="navbar-header">
+			<a href="#" class="navbar-left"></a>
+			<a class="navbar-brand" href="/"><font color="red"><strong>Social</strong></font> Map</a>
+			
+		</div>
+		<ul class="nav navbar-nav">
+<!-- 			<li><a href="/tab1">Tab 1</a></li>
+			<li><a href="/tab2">Tab 2</a></li> -->
+		</ul>
+	</nav>
+
+	<!-- ANGULAR DYNAMIC CONTENT -->
+	<div ng-view></div>
+
+</div>
+</body>
+</html>

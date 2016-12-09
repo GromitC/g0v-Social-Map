@@ -1,0 +1,184 @@
+body { padding-top:0px; }
+.navbar {
+    margin-bottom: 0;
+}
+.noPaddings{
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0
+}
+.noRightPaddings{
+  padding-right: 0;
+}
+.normalDots 
+{
+        fill: lightgrey;
+        fill-opacity: 0.3;
+    }
+
+.CompliantDots 
+{
+        fill: #ff4c4c;
+        fill-opacity: 0.3;
+    }
+
+.InspectionDots 
+{
+        fill: #5b5be3;
+        fill-opacity: 0.8;
+    }
+
+.LegalDots 
+{
+        fill: #006400;
+        fill-opacity: 0.8;
+    }
+
+
+#map {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: #333;
+        
+    }
+.x.axis text{
+  font-size: 10px;
+}
+.tick.zero text{
+  font-size: 10px;
+}
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.dot {
+  stroke: #000;
+}
+
+.fontImportant{
+    fill: red;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.fontNormal{
+  fill: #333333;
+  font-weight: normal;
+  font-size: 100%;
+}
+
+.fontOverlap{
+  fill: blue;
+  font-weight: bold;
+  font-size: 120%;
+}
+
+.vis-time-axis .vis-grid {
+    border-color: #e5e5e5;
+    opacity: 0;
+}
+.vis-time-axis .vis-text {
+  color:#ffffff;
+}
+.vis-timeline {
+  border: 0px;
+  }
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.slideout-menu {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 0;
+  width: 256px;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  display: none;
+}
+
+.slideout-panel {
+  position: relative;
+  z-index: 1;
+}
+
+.slideout-open,
+.slideout-open body,
+.slideout-open .slideout-panel {
+  overflow: hidden;
+}
+
+.slideout-open .slideout-menu {
+  display: block;
+}
+#resetMap {
+  background-color: black;
+    border-color: transparent;
+    color: white;
+}
+.vis-item.march {
+  color: lightgrey;
+  background-color: #a4ce39;
+  border-color: #a4ce39;
+}
+.vis-item.demonstration {
+  color: lightgrey;
+  background-color: #f6ec13;
+  border-color: #f6ec13;
+}
+.vis-item.strike {
+  color: lightgrey;
+  background-color: #fab018;
+  border-color: #fab018;
+}
+.vis-item.occupy {
+  color: lightgrey;
+  background-color: #f26643;
+  border-color: #f26643;
+}
+.vis-item.riot {
+  color: lightgrey;
+  background-color: #ed1c24;
+  border-color: #ed1c24;
+}
+.leaflet-container .leaflet-control-attribution, .leaflet-container .leaflet-control-scale{
+  opacity: 0;
+}
